@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <title>Prototype 3</title>
+</head>
+<body>
+  <!-- section nav -->
+    <section class="nav"  style="background-image: url(images/bgheader.jpg);">
+        <nav class="navbar navbar-expand-lg fixed-top mb-5  navbar-dark bg-dark">
+            <div class="container">
+              <a class="navbar-brand text-warning fs-3" style="font-family: 'Redressed', cursive;" href="#">Start Bootstrap</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                  <a class="nav-link" aria-current="page" href="#services">SERVICES</a>
+                  <a class="nav-link" href="#porfolio">PORFOLIO</a>
+                  <a class="nav-link" href="#about">ABOUT</a>
+                  <a class="nav-link" href="#team">TEAM</a>
+                  <a class="nav-link" href="#contact">CONTACT</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div class="container soma  fs-1 text-center text-light">
+           <div class="welcome">
+            <p>Welcome To Our Studio!</p>
+           </div>
+           <div class="nice">
+            <p class="fw-bold display-1">IT'S NICE TO MEET YOU</p>
+           </div>
+           <button type="button" class="btn btn-warning text-light fw-bold p-3">TELL ME MORE</button>
+          </div>
+    </section>
+<!-- section services -->
+<section class="services mb-5" id="services">
+  <div class="container">
+    <div class="text-center p-5">
+      <h1 class="fw-bold">SERVICES</h1>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+    <div class="row">
+      <div class="col-md-4 text-center">
+          <img src="images/CHAR-removebg-preview.png" class="rounded-circle bg-warning p-3" alt="">
+          <h1 class="fs-3 p-2">E-Commerce</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Deleniti,atque odit! Quisquam,
+            voluptatem voluptatibus exercitationem adipisci
+            impedit iste optio distinctio reprehenderit atque rem perspiciatis
+            nemo error non recusandae?Error, illo!
+          </p>
+      </div>
+
+      <div class="col-md-4 text-center">
+        <img src="images/CHAR-removebg-preview.png" class="rounded-circle bg-warning p-3" alt="">
+        <h1 class="fs-3 p-2">Responsive Design</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Deleniti,atque odit! Quisquam,
+          voluptatem voluptatibus exercitationem adipisci
+          impedit iste optio distinctio reprehenderit atque rem perspiciatis
+          nemo error non recusandae?Error, illo!
+        </p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="images/CHAR-removebg-preview.png" class="rounded-circle bg-warning p-3" alt="">
+        <h1 class="fs-3 p-2">Web Security</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Deleniti,atque odit! Quisquam,
+          voluptatem voluptatibus exercitationem adipisci
+          impedit iste optio distinctio reprehenderit atque rem perspiciatis
+          nemo error non recusandae?Error, illo!
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- section porfolio -->
+    <section class="portfolio p-5 bg-secondary-subtle" id="porfolio">
+      <div class="container">
+        <div class="text-center p-5">
+          <h1 class="fw-bold">PORFOLIO</h1>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="images/portfolio/montre.jpeg" class="card-img-top"  alt="">
+              <div class="port-hover position-absolute top-0 text-light bg-warning" data-bs-toggle="offcanvas" 
+               data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                <div class="hover-port display-1 position-absolute top-50 text-light">
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </div>
+             
+              <div class="card-body position-relative text-center">
+                <h5 class="card-title fw-bold">Threads</h5>
+                <p class="card-text">Illustration</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="offcanvas offcanvas-top h-100" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="container">
+             <div class="montre">
+              <div class="text-center">
+                <h1 class="fw-bold display-1">PROJECT NAME</h1>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+             <div class="text-center">
+              <img src="images/portfolio/montre.jpeg" class="w-75 h-75" alt="">
+              <p class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Voluptatem harum accusantium vero magni sed nisi quos 
+                labore corporis culpa aliquam,saepe, et quis impedit ipsum neque ex?
+                Possimus, iusto minima!
+                rum accusantium vero magni sed nisi quos 
+                labore corporis culpa aliquam,saepe, et quis impedit ipsum neque ex?
+                Possimus, iusto minima!
+                rum accusantium vero magni sed nisi quos 
+                labore corporis culpa aliquam,saepe, et quis impedit ipsum neque ex?
+                Possimus, iusto minima!
+              </p>
+             </div>
+              <div class="text-center">
+                <p><span class="fw-bold">Client</span>: Threads</p>
+                <p><span class="fw-bold">Category</span>: Illustration</p>
+                <button type="button" class="btn btn-warning text-light fw-bold p-3 mb-5">x CLOSE PROJECT</button>
+             </div>
+             </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <img src="images/portfolio/shoes.jpeg" class="card-img-top" alt="">
+            <div class="port-hover position-absolute top-0 text-light bg-warning" data-bs-toggle="offcanvas" 
+            data-bs-target="#offcanvasTop1" aria-controls="offcanvasTop1">
+             <div class="hover-port display-1 position-absolute top-50 text-light">
+               <i class="fa-solid fa-plus"></i>
+             </div>
+           </div>
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Explore</h5>
+              <p class="card-text">Graphic Design</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="offcanvas offcanvas-top h-100" tabindex="-1" id="offcanvasTop1" aria-labelledby="offcanvasTopLabel">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="container">
+           <div class="design">
+            <div class="text-center">
+              <h1 class="fw-bold display-1">PROJECT NAME</h1>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+           <div class="text-center">
+            <img src="images/portfolio/shoes.jpeg" class="w-75 h-75" alt="">
+            <p class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Voluptatem harum accusantium vero magni sed nisi quos 
+              labore corporis culpa aliquam,saepe, et quis impedit ipsum neque ex?
+              Possimus, iusto minima!
+              rum accusantium vero magni sed nisi quos 
+              labore corporis culpa aliquam,saepe, et quis impedit ipsum neque ex?
+              Possimus, iusto minima!
+              rum accusantium vero magni sed nisi quos 
+              labore corporis culpa aliquam,saepe, et quis impedit ipsum neque ex?
+              Possimus, iusto minima!
+            </p>
+           </div>
+            <div class="text-center">
+              <p><span class="fw-bold">Client</span>: Explore</p>
+              <p><span class="fw-bold">Category</span>: Graphic Design</p>
+              <button type="button" class="btn btn-warning text-light fw-bold p-3 mb-5">x CLOSE PROJECT</button>
+           </div>
+           </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-3">
+          <img src="images/portfolio/tesla.jpeg" class="card-img-top" alt="">
+          <div class="port-hover position-absolute top-0 text-light bg-warning" data-bs-toggle="offcanvas" 
+          data-bs-target="#offcanvasTop2" aria-controls="offcanvasTop2">
+           <div class="hover-port display-1 position-absolute top-50 text-light">
+             <i class="fa-solid fa-plus"></i>
+           </div>
+         </div>
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold">Finish</h5>
+            <p class="card-text">Identity</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="offcanvas offcanvas-top h-100" tabindex="-1" id="offcanvasTop2" aria-labelledby="offcanvasTopLabel">
+      <div class="offcanvas-header">
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="container">
+         <div class="design">
+          <div class="text-center">
+            <h1 class="fw-bold display-1">PROJECT NAME</h1>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+         <div class="text-center">
+          <img src="images/portfolio/tesla.jpeg" class="w-75 h-75" alt="">
+          <p class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Voluptatem harum accusantium vero magni sed nisi quos 
+            labore corporis culpa aliquam,saepe, et quis impedit ipsum neque ex?
+            Possimus, iusto minima!
+            rum accusantium vero magni sed nisi quos 
+            labore corporis culpa aliquam,saepe, et quis impedit ipsum neque ex?
+            Possimus, iusto minima!
+            rum accusantium vero magni sed nisi quos 
+            labore corporis culpa aliquam,saepe, et quis impedit ipsum neque ex?
+            Possimus, iusto minima!
+          </p>
+         </div>
+          <div class="text-center">
+            <p><span class="fw-bold">Client</span>: Finish</p>
+            <p><span class="fw-bold">Category</span>: Identity</p>
+            <button type="button" class="btn btn-warning text-light fw-bold p-3 mb-5">x CLOSE PROJECT</button>
+         </div>
+         </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card mb-3">
+        <img src="images/portfolio/coca.jpeg" class="card-img-top" alt="">
+        <div class="port-hover position-absolute top-0 text-light bg-warning" data-bs-toggle="offcanvas" 
+        data-bs-target="#offcanvasTop3" aria-controls="offcanvasTop3">
+         <div class="hover-port display-1 position-absolute top-50 text-light">
+           <i class="fa-solid fa-plus"></i>
+         </div>
+       </div>
+        <div class="card-body text-center">
+          <h5 class="card-title fw-bold">Lines</h5>
+          <p class="card-text">Branding</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="offcanvas offcanvas-top h-100" tabindex="-1" id="offcanvasTop3" aria-labelledby="offcanvasTopLabel">
+    <div class="offcanvas-header">
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="container">
+       <div class="design">
+        <div class="text-center">
+          <h1 class="fw-bold display-1">PROJECT NAME</h1>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+       <div class="text-center">
+        <img src="images/portfolio/coca.jpeg" class="w-75 h-75" alt="">
+        <p class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Voluptatem harum accusantium vero magni sed nisi quos 
+          labore corporis culpa aliquam,saepe, et quis impedit ipsum neque ex?
+          Possimus, iusto minima!
+          rum accusantium vero magni sed nisi quos 
+          labore corporis culpa aliquam,saepe, et quis impedit ipsum neque ex?
+          Possimus, iusto minima!
+          rum accusantium vero magni sed nisi quos 
+          labore corporis culpa aliquam,saepe, et quis impedit ipsum neque ex?
+          Possimus, iusto minima!
+        </p>
+       </div>
+        <div class="text-center">
+          <p><span class="fw-bold">Client</span>: Lines</p>
+          <p><span class="fw-bold">Category</span>: Branding</p>
+          <button type="button" class="btn btn-warning text-light fw-bold p-3 mb-5">x CLOSE PROJECT</button>
+       </div>
+       </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card mb-3">
+      <img src="images/portfolio/ordi.jpeg" class="card-img-top" alt="">
+      <div class="port-hover position-absolute top-0 text-light bg-warning" data-bs-toggle="offcanvas" 
+      data-bs-target="#offcanvasTop4" aria-controls="offcanvasTop4">
+       <div class="hover-port display-1 position-absolute top-50 text-light">
+         <i class="fa-solid fa-plus"></i>
+       </div>
+     </div>
+      <div class="card-body text-center">
+        <h5 class="card-title fw-bold">Southwest</h5>
+        <p class="card-text">Web Design</p>
+      </div>
+  </div>
+</div>
+
+<div class="offcanvas offcanvas-top h-100" tabindex="-1" id="offcanvasTop4" aria-labelledby="offcanvasTopLabel">
+  <div class="offcanvas-header">
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="container">
+     <div class="design">
+      <div class="text-center">
+        <h1 class="fw-bold display-1">PROJECT NAME</h1>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+      </div>
+     <div class="text-center">
+      <img src="images/portfolio/ordi.jpeg" class="w-75 h-75" alt="">
+      <p class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Voluptatem harum accusantium vero magni sed nisi quos 
+        labore corporis culpa aliquam,saepe, et quis impedit ipsum neque ex?
+        Possimus, iusto minima!
+        rum accusantium vero magni sed nisi quos 
+        labore corporis culpa aliquam,saepe, et quis impedit ipsum neque ex?
+        Possimus, iusto minima!
+        rum accusantium vero magni sed nisi quos 
+        labore corporis culpa aliquam,saepe, et quis impedit ipsum neque ex?
+        Possimus, iusto minima!
+      </p>
+     </div>
+      <div class="text-center">
+        <p><span class="fw-bold">Client</span>: Southwest</p>
+        <p><span class="fw-bold">Category</span>: Website Design</p>
+        <button type="button" class="btn btn-warning text-light fw-bold p-3 mb-5">x CLOSE PROJECT</button>
+     </div>
+     </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="card mb-3">
+    <img src="images/portfolio/chanel.jpeg" class="card-img-top" alt="">
+    <div class="port-hover position-absolute top-0 text-light bg-warning" data-bs-toggle="offcanvas" 
+    data-bs-target="#offcanvasTop5" aria-controls="offcanvasTop5">
+     <div class="hover-port display-1 position-absolute top-50 text-light">
+       <i class="fa-solid fa-plus"></i>
+     </div>
+   </div>
+    <div class="card-body text-center">
+      <h5 class="card-title fw-bold">Window</h5>
+      <p class="card-text">Photography</p>
+    </div>
+</div>
+</div>
+
+<div class="offcanvas offcanvas-top h-100" tabindex="-1" id="offcanvasTop5" aria-labelledby="offcanvasTopLabel">
+  <div class="offcanvas-header">
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="container">
+     <div class="design">
+      <div class="text-center">
+        <h1 class="fw-bold display-1">PROJECT NAME</h1>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+      </div>
+     <div class="text-center">
+      <img src="images/portfolio/chanel.jpeg
+      " class="w-75 h-75" alt="">
+      <p class="p-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Voluptatem harum accusantium vero magni sed nisi quos 
+        labore corporis culpa aliquam,saepe, et quis impedit ipsum neque ex?
+        Possimus, iusto minima!
+        rum accusantium vero magni sed nisi quos 
+        labore corporis culpa aliquam,saepe, et quis impedit ipsum neque ex?
+        Possimus, iusto minima!
+        rum accusantium vero magni sed nisi quos 
+        labore corporis culpa aliquam,saepe, et quis impedit ipsum neque ex?
+        Possimus, iusto minima!
+      </p>
+     </div>
+      <div class="text-center">
+        <p><span class="fw-bold">Client</span>: Window</p>
+        <p><span class="fw-bold">Category</span>: Photography</p>
+        <button type="button" class="btn btn-warning text-light fw-bold p-3 mb-5">x CLOSE PROJECT</button>
+     </div>
+     </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </section>
+<!-- section about -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="text-center p-5">
+          <h1 class="fw-bold">ABOUT</h1>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <ul class="timeline">
+           <li>
+              <div class="timeline-image ">
+                <img src="images/about/rond1.jpeg" class="rounded-circle w-100 h-100 img-fluid mg" alt="">
+              </div>
+              <div class="timeline-panel position-relative">
+                <div class="timeline-heading">
+                  <h4>2009-2011</h4>
+                  <h4>Our Humble Beginnings</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Lorem ipsum sit amet, consectetur adipisicing elit.
+                    Sunt <br> ut voluptatem eius sapiente, totam reiciendis temporibus <br> quibusdam,
+                     recusandae sit vero unde,sed, incidunt et ea <br> quo dolore laudantium consectetur!
+                  </p>
+                </div>
+              </div>
+           </li>
+
+          <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img src="images/about/rond2.jpeg" class="rounded-circle w-100 h-100 img-fluid mg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>2011</h4>
+                  <h4>An Agency is Born</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Lorem ipsum sit amet, consectetur adipisicing elit.
+                    Sunt <br> ut voluptatem eius sapiente, totam reiciendis temporibus <br> quibusdam,
+                     recusandae sit vero unde,sed, incidunt et ea <br> quo dolore laudantium consectetur!
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="timeline-image">
+                <img src="images/about/rond3.jpeg" class="rounded-circle w-100 h-100 img-fluid mg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>December 2015</h4>
+                  <h4>Transition to Full Service</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Lorem ipsum sit amet, consectetur adipisicing elit.
+                    Sunt <br> ut voluptatem eius sapiente, totam reiciendis temporibus <br> quibusdam,
+                     recusandae sit vero unde,sed, incidunt et ea <br> quo dolore laudantium consectetur!
+                  </p>
+                </div>
+              </div>
+           </li>
+           <li class="timeline-inverted">
+            <div class="timeline-image">
+              <img src="images/about/rond4.jpeg" class="rounded-circle w-100 h-100 img-fluid mg" alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>July 2020</h4>
+                <h4>Phase Two Expansion</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">Lorem ipsum sit amet, consectetur adipisicing elit.
+                  Sunt <br> ut voluptatem eius sapiente, totam reiciendis temporibus <br> quibusdam,
+                   recusandae sit vero unde,sed, incidunt et ea <br> quo dolore laudantium consectetur!
+                </p>
+              </div>
+            </div>
+          </li>
+
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                  <h4>
+                      Be Part
+                      <br />
+                      Of Our
+                      <br />
+                      Story!
+                  </h4>
+              </div>
+            </li>
+            
+          </ul>
+      </div>
+    </section>
+    <!-- section team -->
+    <section class="team bg-secondary-subtle p-5" id="team">
+      <div class="container">
+        <div class="text-center p-5">
+          <h1 class="fw-bold">OUR AMAZING TEAM</h1>
+        <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 text-center">
+            <div class="team-image">
+              <img src="images/team/pp1.jpeg" class="rounded-circle mx-auto image" alt="photo">
+              <h3 class="p-3">Parveen Anand</h3>
+              <p class="text-muted">Lead Design</p>
+              <a href="" class="btn btn-dark rounded-circle mx-2"><i class="fa-brands fa-twitter"></i></a>
+              <a href="" class="btn btn-dark rounded-circle mx-2"><i class="fa-brands fa-facebook-f"></i></i></a>
+              <a href="" class="btn btn-dark rounded-circle mx-2"><i class="fa-brands fa-linkedin"></i></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 text-center">
+            <div class="team-image">
+              <img src="images/team/PP2.jpeg" class="rounded-circle mx-auto image" alt="photo">
+              <h3 class="p-3">Diana Petersen</h3>
+              <p class="text-muted">Lead Marketer</p>
+              <a href="" class="btn btn-dark rounded-circle mx-2"><i class="fa-brands fa-twitter"></i></a>
+              <a href="" class="btn btn-dark rounded-circle mx-2"><i class="fa-brands fa-facebook-f"></i></i></a>
+              <a href="" class="btn btn-dark rounded-circle mx-2"><i class="fa-brands fa-linkedin"></i></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 text-center">
+            <div class="team-image">
+              <img src="images/team/pp1.jpeg" class="rounded-circle mx-auto image" alt="photo">
+              <h3 class="p-3">Larry Parker</h3>
+              <p class="text-muted">Lead Developper</p>
+              <a href="" class="btn btn-dark rounded-circle mx-2"><i class="fa-brands fa-twitter"></i></a>
+              <a href="" class="btn btn-dark rounded-circle mx-2"><i class="fa-brands fa-facebook-f"></i></i></a>
+              <a href="" class="btn btn-dark rounded-circle mx-2"><i class="fa-brands fa-linkedin"></i></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <p class="text-muted p-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+             Ipsam placeat reprehenderit consequatur facere doloribus 
+             veniam harum ratione excepturi assumenda, nemo, sit quas?
+             Quam facilis vel aut, sit deserunt quo alias.</p>
+        </div>
+      </div>
+    </section>
+    <!-- section partenaire -->
+    <section class="partenaire py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-3 sm-6 my-3">
+            <a href=""><img src="images/facebook.png" class="img-fluid d-block mx-auto" alt="photo"></a>
+          </div>
+          <div class="col-md-3 sm-6 my-3">
+            <a href=""><img src="images/microsoft1.png" class="img-fluid d-block mx-auto" alt="photo"></a>
+          </div>
+          <div class="col-md-3 sm-6 my-3">
+            <a href=""><img src="images/google.png" class="img-fluid d-block mx-auto" alt="photo"></a>
+          </div>
+          <div class="col-md-3 sm-6 my-3">
+            <a href=""><img src="images/ibm.png" class="img-fluid d-block mx-auto" alt="photo"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section contact -->
+    <section class="contact p-3" id="contact" style="background: url(images/monde0.jpg);">
+      <div class="container">
+        <div class="text-center text-light p-5">
+          <h1 class="fw-bold">CONTACT US</h1>
+        <p class="text-light">Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <form action="">
+          <div class="row">
+            <div class="col-md-6">
+              <!-- nom -->
+              <div class="form-control">
+                <input type="text" id="nom" placeholder="Votre nom *" data-sb-validations="required" class="form-control">
+                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required</div>
+              </div>
+              <!-- email -->
+              <div class="form-control mt-3">
+                <input type="text" id="email" placeholder="Votre email *" data-sb-validations="required" class="form-control">
+                <div class="invalid-feedback" data-sb-feedback="name:required">A email is required</div>
+                <div class="invalid-feedback" data-sb-feedback="name:required">A email is not valid</div>
+              </div>
+              <!-- phone -->
+              <div class="form-control mt-3">
+                <input type="text" id="phone" placeholder="Votre numero telephone *" data-sb-validations="required" class="form-control">
+                <div class="invalid-feedback" data-sb-feedback="name:required">A phone is required</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-control form-contact-textarea ">
+                <textarea type="text" id="message" placeholder="Votre message *" rows="7" data-sb-validations="required" class="form-control outline-none"></textarea>
+                <div class="invalid-feedback" data-sb-feedback="name:required">A message is required</div>
+              </div>
+            </div>
+            <!-- submit -->
+              <div class="text-center p-5">
+                <button type="button" class="btn btn-warning text-light opacity-75 p-3">Send Message</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- footer -->
+    <section class="footer p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 text-lg-start">
+            copyright &copy; your Website 2024
+          </div>
+          <div class="col-lg-4 text-center">
+            <a href="" class="btn btn-dark rounded-circle mx-2"><i class="fa-brands fa-twitter"></i></a>
+            <a href="" class="btn btn-dark rounded-circle mx-2"><i class="fa-brands fa-facebook-f"></i></i></a>
+            <a href="" class="btn btn-dark rounded-circle mx-2"><i class="fa-brands fa-linkedin"></i></i></a>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a href="" class="link-dark text-decoration-none me-3">Privacy </a>
+            <a href="" class="link-dark text-decoration-none">Terms of Use</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+
+</body>
+</html>
